@@ -1,7 +1,7 @@
 # DISS
 Digitized Ionogram Scaling Software
 
-The Digitized Ionogram Scaling Software is a MATLAB script that allows the reduction of ionograms in photographic format. Based mainly in DIGION (Titheridge,1998) and taking elements from other scaling softwares, it was thought as a flexible method to extract ionosonde parameters from different kinds of ionosonde, even analogic ones.
+The Digitized Ionogram Scaling Software is a MATLAB script that allows the reduction of ionograms in photographic format. Based mainly in DIGION (Titheridge,1998) and taking elements from other scaling softwares, it was thought as a flexible method to extract ionosonde parameters from different kinds of ionosonde, even analog ones.
 
 In general, it's concept is to have a pixel-data relationship that allows the program to capture critical frequencies and virtual height values whenever the scaler needs it. With cursors and message boxes (and traces in DISS >= 1.2), each ionosonde parameter can be scaled using the scaling rules recommended by the U.R.S.I. Handbook of Ionogram Interpretation and Reduction (Piggot & Rawer,1972). 
 
@@ -26,6 +26,6 @@ v. 2.0
 
 - A more definitive version of the script.
 - New parameters of each region (foE2,h'E2,foF3, etc) [F3 parameters aren't fully included yet].
-- DIGION data, Raspberry based method (IPS-42), LISN OX ionograms (VIPIR) and analogic ionograms (C series, Old IPS-42, etc) are scalable.
+- DIGION data, Raspberry based method (IPS-42), LISN OX ionograms (VIPIR) and analog ionograms (C series, Old IPS-42, etc) are scalable.
 - A couple changes in the GUI and trace method.
 
